@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package-name"
+version = "0.1.0"
+description = "A brief description of your package"
+readme = "README.md"
+authors = [
+    { name = "Yus314", email = "your.email@example.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Yus314/package-name"
+Repository = "https://github.com/Yus314/package-name"
